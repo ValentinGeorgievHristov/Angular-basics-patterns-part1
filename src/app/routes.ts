@@ -9,6 +9,11 @@ import{
       EventsNg4Component,
       SwapiComponent,
       PostmanComponent,
+      NgIfComponent,
+      NgSwitchComponent,
+      NgClassStyleComponent,
+      NgStyleComponent,
+      TwelfthComponent
     } from './index';
 
 export const appRoutes: Routes = [
@@ -20,11 +25,11 @@ export const appRoutes: Routes = [
     { path: 'event-ng4', component: EventsNg4Component },
     { path: 'swapi', component: SwapiComponent },
     { path: 'postman', component: PostmanComponent },
-
+    { path: 'ng-if', component: NgIfComponent },
+    { path: 'ng-switch', component: NgSwitchComponent },
+    { path: 'ng-class-style', component: NgClassStyleComponent },
+    { path: 'ng-style', component: NgStyleComponent },
+    { path: 'twelfth', component: TwelfthComponent },
 ]
 
 
-// import { FirstComponent } from './components/first/first.component'
-// import { SecondComponent } from './components/second-input/event-details/second.component'
-// import { ParentLocalOutputComponent } from './components/third-output/parent.component'
-// import { ParentLocalVariableComponent } from './components/fourth-local-variables/parent-local.component'

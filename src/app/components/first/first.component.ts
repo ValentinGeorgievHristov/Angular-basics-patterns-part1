@@ -46,5 +46,24 @@ export class FirstComponent {
     this.router.navigate(['/postman'], {});
    }
 
+   goToNinth(){
+    this.router.navigate(['/ng-if'], {});
+   }
+
+   goToTenth(){
+    this.router.navigate(['/ng-switch'], {});
+   }
+
+   goToEleventh(){
+    this.router.navigate(['/ng-class-style'], {});
+   }
+
+   goToEleventhNgStyle(){
+    this.router.navigate(['/ng-style'], {});
+   }
+
+   goToTwelfth(){
+    this.router.navigate(['/twelfth'], {});
+   }
 }
 

@@ -17,3 +17,8 @@ export * from './components/fifth-CSS/event-styles.component';
 export * from './components/sixth-ng4/event-ng4.component';
 export * from './components/seventh-swapi/swapi.component';
 export * from './components/eighth-postman/postman.component';
+export * from './components/ninth-ng-if/ng-if.component';
+export * from './components/tenth-ng-switch/ng-switch.component';
+export * from './components/eleventh-style/ng-class-stylle/ng-class-style.component';
+export * from './components/eleventh-style/ng-style-stylle/ng-style.component';
+export * from './components/twelfth-simple-service/twelfth.component';
