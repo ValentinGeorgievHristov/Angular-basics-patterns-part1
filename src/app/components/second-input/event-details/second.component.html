@@ -1,0 +1,21 @@
+<div>
+<p>II.Second Component @Input</p>
+<p>@Input() lets a parent component update data in the child component.</p>
+<div>
+    <div style="margin-top:30px">
+      Event: {{event.name}}
+    </div>
+    <div>
+      Date: {{event.date}}
+    </div>
+    <div>
+      Time: {{event.time}}
+    </div>
+    <div>
+      Address: <event-address [address]="event.location">
+      </event-address>
+    </div>
+  </div>
+<br>
+<button routerLink="/">Back to One</button>
+</div>
