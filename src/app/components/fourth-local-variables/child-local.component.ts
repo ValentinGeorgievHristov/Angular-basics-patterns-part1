@@ -10,6 +10,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
         <h3>You stopped the child component's counter!</h3>
       </div>
       <h3>Child Counter: {{counter}}</h3>
+
   `
 })
 export class ChildLocalVariableComponent {

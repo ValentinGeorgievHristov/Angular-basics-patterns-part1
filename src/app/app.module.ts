@@ -4,14 +4,7 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
-
-// import { FirstComponent } from './components/first/first.component';
-// import { SecondComponent } from './components/second-input/event-details/second.component';
-// import { EventAddressComponent } from './components/second-input/event-address.component';
-// import { ParentLocalOutputComponent } from './components/third-output/parent.component';
-// import { ChildOutputComponent } from './components/third-output/child.component';
-// import { ParentLocalVariableComponent } from './components/fourth-local-variables/parent-local.component';
-// import { ChildLocalVariableComponent } from './components/fourth-local-variables/child-local.component';
+import { HttpClientModule } from '@angular/common/http';
 
 import{
   FirstComponent,
@@ -20,10 +13,12 @@ import{
   ParentLocalOutputComponent,
   ChildOutputComponent,
   ParentLocalVariableComponent,
-  ChildLocalVariableComponent
+  ChildLocalVariableComponent,
+  EventStylesComponent,
+  EventsNg4Component,
+  SwapiComponent,
+  PostmanComponent,
 } from './index';
-
-
 
 @NgModule({
   declarations: [
@@ -35,11 +30,15 @@ import{
     ChildOutputComponent,
     ParentLocalVariableComponent,
     ChildLocalVariableComponent,
-
+    EventStylesComponent,
+    EventsNg4Component,
+    SwapiComponent,
+    PostmanComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

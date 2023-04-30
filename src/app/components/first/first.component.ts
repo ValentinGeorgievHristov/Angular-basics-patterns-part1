@@ -27,11 +27,24 @@ export class FirstComponent {
    }
 
    goToFour(){
-    this.router.navigate(['/parent-local-variable'], {});
+    this.router.navigate(['/event-ng4'], {});
    }
 
    goToFive(){
-    this.router.navigate(['/parent-local-variable'], {});
+    this.router.navigate(['/event-styles'], {});
    }
+
+   goToSix(){
+    this.router.navigate(['/event-ng4'], {});
+   }
+
+   goToSeventh(){
+    this.router.navigate(['/swapi'], {});
+   }
+
+   goToEight(){
+    this.router.navigate(['/postman'], {});
+   }
+
 }
 
