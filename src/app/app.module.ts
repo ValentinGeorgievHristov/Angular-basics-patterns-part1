@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { HttpClientModule } from '@angular/common/http';
 import { SwapiService } from './components/seventh-swapi/swapi.service';
-import { TwelfthService } from './components/twelfth-simple-service/twelfth.service';
+import { TwelfthService } from './components/Twelfth-simple-service/twelfth.service';
 
 import{
   FirstComponent,
@@ -24,7 +24,7 @@ import{
   NgSwitchComponent,
   NgClassStyleComponent,
   NgStyleComponent,
-  TwelfthComponent
+  TwelfthComponent,
 } from './index';
 
 @NgModule({
@@ -53,7 +53,11 @@ import{
     HttpClientModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [TwelfthService, SwapiService],
+  providers: [
+    TwelfthService,
+    SwapiService,
+    // RouteParamService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

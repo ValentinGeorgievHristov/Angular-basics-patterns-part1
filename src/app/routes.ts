@@ -13,7 +13,7 @@ import{
       NgSwitchComponent,
       NgClassStyleComponent,
       NgStyleComponent,
-      TwelfthComponent
+      TwelfthComponent,
     } from './index';
 
 export const appRoutes: Routes = [

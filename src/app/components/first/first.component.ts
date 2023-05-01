@@ -65,5 +65,9 @@ export class FirstComponent {
    goToTwelfth(){
     this.router.navigate(['/twelfth'], {});
    }
+
+   goToThirtheen(){
+    this.router.navigate(['/twelfth'], {});
+   }
 }
 
